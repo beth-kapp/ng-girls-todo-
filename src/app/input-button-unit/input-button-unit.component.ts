@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <p>
       input-button-unit works!
-      The title is: {{ title }}
+      The second title is: {{ title }}
     </p>
 
     <input [value]="generateTitle()">
