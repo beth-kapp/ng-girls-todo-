@@ -8,7 +8,7 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "todo",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -119,6 +119,17 @@
           }
         }
       }
-    }},
-  "defaultProject": "todo-list"
+    }
+  },
+  "defaultProject": "todo-list",
+  "cli": {
+    "analytics": "e05781e1-00c5-4f5e-a54a-d932b6db6a4b"
+  },
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "inlineTemplate": true
+      }
+    }
+  }
 }
