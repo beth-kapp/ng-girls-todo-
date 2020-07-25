@@ -15,6 +15,7 @@ export class InputButtonUnitComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('Test');
   }
 
 }
